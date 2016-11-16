@@ -1,7 +1,7 @@
 # Dev configurations for Ubuntu
 Configuration parameters used on the different linux applications. My personal set up.
 
-![Screenshot](http://i.imgur.com/GDDDyOL.png)
+![Screenshot](http://i.imgur.com/xXjk0NV.png)
 
 ## Unity tmux shortcut
 First thing, copy .termric.sh to your home folder or whatever location you feel suitable, this path should be updated on 
