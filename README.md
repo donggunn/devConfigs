@@ -9,6 +9,9 @@ the tmux.desktop file.
 
 Copy tmux.desktop to your /usr/share/applications/ folder, keep in mind you need sudo permission to do so. 
 
+To see the new app on unity reload its database with:
+
+	sudo update-desktop-database
 
 ## Gnome Terminal Theme
 
