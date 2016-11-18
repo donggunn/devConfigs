@@ -45,6 +45,8 @@ First of all install tmux
 
 Then copy/replace the .tmux.conf file of your home directory with the one on this repository (tmux/.tmux.conf)
 
+> **NOTE:** Tmux mouse support is enabled on the configuration file, therefore you have to hold *Shift* key to select text on the terminal. To disable this remove *set -g mouse on* from the configuration file.
+
 
 ## Vim
 
