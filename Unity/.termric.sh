@@ -8,7 +8,9 @@ then
 	tmux new-session -s $SESSIONNAME -d -n Servers
 	tmux split-window -t $SESSIONNAME
 	tmux split-window -t $SESSIONNAME
+	tmux select-layout main-vertical
 	tmux new-window -n Local
+	tmux split-window -t $SESSIONNAME
 	tmux select-window -t Servers
 fi
 tmux a -t $SESSIONNAME
