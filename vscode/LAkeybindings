@@ -1,0 +1,2 @@
+    { "key": "ctrl+\\",            "command": "workbench.action.terminal.toggleTerminal" },
+    { "key": "ctrl+ñ",               "command": "workbench.action.splitEditor" }
