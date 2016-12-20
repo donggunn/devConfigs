@@ -3,15 +3,18 @@ Configuration parameters used on the different linux applications. My personal s
 
 ![Screenshot](http://i.imgur.com/xXjk0NV.png)
 
+
 ## Unity tmux shortcut
+
 First thing, copy .termric.sh to your home folder or whatever location you feel suitable, this path should be updated on 
 the tmux.desktop file.
 
 Copy tmux.desktop to your /usr/share/applications/ folder, keep in mind you need sudo permission to do so. 
 
-To see the new app on unity reload its database with:
+The new app icon will be displayed on unity after reloading its database with:
 
 	sudo update-desktop-database
+
 
 ## Gnome Terminal Theme
 
@@ -50,7 +53,7 @@ Then copy/replace the .tmux.conf file of your home directory with the one on thi
 
 ## Vim
 
-Copy the folder colors to your ~/.vim/ folder (Created it if you don't have it) then copy .vimrc file to your home directory. In case you have one, just update its content with the one provided.
+Copy the folder colors to your ~/.vim/ folder (Create it in case you don't have it) then copy .vimrc file to your home directory. In case you have one, just update its content with the one provided.
 
 
 
