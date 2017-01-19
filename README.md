@@ -37,6 +37,8 @@ Run the tweak tool and pick Numix as theme
 Run ./base16-monokai.dark.sh this will add a new profile on your terminal emulator. 
 These scripts were made by [Chris Kempson](https://github.com/chriskempson/base16-gnome-terminal)
 
+>Preferred font so far: DejaVu Sans Mono Book
+
 
 ## OhMyZsh
 
