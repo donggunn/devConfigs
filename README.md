@@ -16,6 +16,22 @@ The new app icon will be displayed on unity after reloading its database with:
 	sudo update-desktop-database
 
 
+## Ubuntu Icons and theme
+
+Just add the numix repository running the following commads
+
+	sudo add-apt-repository ppa:numix/ppa
+	sudo apt-get update
+	sudo apt-get install numix-gtk-theme numix-icon-theme-circle
+
+Then you'll need to instal Unity Tweak Tool: 
+	
+	sudo apt-get install unity-tweak-tool
+
+Run the tweak tool and pick Numix as theme
+
+
+
 ## Gnome Terminal Theme
 
 Run ./base16-monokai.dark.sh this will add a new profile on your terminal emulator. 
@@ -38,6 +54,10 @@ Then edit the ZSH_THEME parameter on your ~/.zshrc file replacing it with "xiong
 	
 	ZSH_THEME="xiong-chiamiov-plus"  
 
+or download honukai.zsh-theme from [Oskarkrawczyk](https://github.com/oskarkrawczyk/honukai-iterm-zsh)
+and place it on your `~/.oh-my-zsh/themes/` folder, then change your ZSH_THEME parameter
+	
+	ZSH_THEME="honukai"
 
 ## Tmux
 
