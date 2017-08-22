@@ -47,6 +47,15 @@ These scripts were made by [Chris Kempson](https://github.com/chriskempson/base1
 	sudo apt-get update
 	sudo apt-get install zsh
 
+**PowerLine FONTS**
+
+Must have for some OMZSH themes (Cute icons 'n stuff)
+
+	wget https://github.com/Lokaltog/powerline/raw/develop/font/PowerlineSymbols.otf https://github.com/Lokaltog/powerline/raw/develop/font/10-powerline-symbols.conf
+	sudo mv PowerlineSymbols.otf /usr/share/fonts/
+	sudo fc-cache -vf
+	sudo mv 10-powerline-symbols.conf /etc/fonts/conf.d/
+
 **Installing Oh my zsh** (This requires you to have Git)
 	
 	sudo curl -L http://install.ohmyz.sh | sh
